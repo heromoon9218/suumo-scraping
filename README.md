@@ -16,3 +16,8 @@
 ```ruby
 SCRAPING_URL = #スクレイピング対象のSUUMO検索結果ページのURL
 ```
+
+下記コマンドでスクリプトを実行する。
+```bash
+bin/rails runner "lib/scripts/scrape_and_save_properties.rb"
+```
